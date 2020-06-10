@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "l3U9UwFu9qUcvYAYFq8Bv2VTUkgJyNFrssKOuH6aIc96/0yvbRIHWdX/ZJLzCsQg+ZtFRlB89Bp6KFHAfwiHpw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\AlexM\\source\\repos\\DesignPatternProject\\DIP\\DIP\\DIP.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\AlexM\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
