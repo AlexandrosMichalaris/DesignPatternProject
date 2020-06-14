@@ -4,29 +4,17 @@ using System.Text;
 
 namespace FactoryDesignPattern
 {
-    class OperatingSystem : ElectronicDeviceInterface, SoftwareInterface
+    class OperatingSystem : SoftwareInterface
     {
-        private Guid mac;
-
-        public OperatingSystem()
-        {
-            this.mac = setMACaddress();
-        }
-
         public void createSoftware()
         {
-            Console.WriteLine("Creating Software...");
+            Console.WriteLine("Creating Operating System Software...");
             createKernel();
         }
 
         public void createKernel()
         {
             Console.WriteLine("Creating Kernel...");
-        }
-
-        public Guid setMACaddress()
-        {
-            return Guid.NewGuid();
         }
     }
 }
